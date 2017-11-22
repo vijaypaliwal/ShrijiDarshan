@@ -43,7 +43,7 @@ var app = {
             "android": {
                 "senderID": "381947611538"
             },
-            "browser": { pushServiceURL: 'http://push.api.phonegap.com/v1/push'},
+            "browser": { },
             "ios": {
                 "sound": true,
                 "vibration": true,
