@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "381947611538",
+    "firebase_url": "https://shrijidarshan-b8d15.firebaseio.com",
+    "project_id": "shrijidarshan-b8d15",
+    "storage_bucket": "shrijidarshan-b8d15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381947611538:android:36f1e7e78eb50cb0",
+        "android_client_info": {
+          "package_name": "com.shivamitcs.shriji"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "381947611538-bcciqi0h8abcu08mip8r9nhq3bi9vpek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDU_Ogz0SpQz1VrYdz57duCaGZNCfsUw0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
