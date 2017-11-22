@@ -59,6 +59,7 @@ var app = {
             var oldRegId = localStorage.getItem('registrationId');
             if (oldRegId !== data.registrationId) {
                 // Save new registration ID
+                alert(data.registrationId);
                 localStorage.setItem('registrationId', data.registrationId);
                 // Post registrationId to your app server as the value has changed
             }
@@ -72,11 +73,11 @@ var app = {
         });
 
         push.on('error', function(e) {
-            console.log("push error = " + e.message);
+           alert("push error = " + e.message);
         });
 
         push.on('notification', function(data) {
-            console.log('notification event');
+            alert('notification event');
             navigator.notification.alert(
                 data.message,         // message
                 null,                 // callback
