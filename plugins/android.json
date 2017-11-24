@@ -1,18 +1,28 @@
 {
-  "prepare_queue": {
-    "installed": [],
-    "uninstalled": []
-  },
-  "config_munge": {
-    "files": {}
-  },
-  "installed_plugins": {
-    "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.shivamitcs.push"
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
     },
-    "cordova-plugin-fcm": {
-      "PACKAGE_NAME": "com.shivamitcs.push"
-    }
-  },
-  "dependent_plugins": {}
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.shivamitcs.shriji"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.shivamitcs.shriji"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.shivamitcs.shriji"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.shivamitcs.shriji"
+        },
+        "phonegap-plugin-push": {
+            "SENDER_ID": "XXXXXXX",
+            "PACKAGE_NAME": "com.shivamitcs.shriji"
+        }
+    },
+    "dependent_plugins": {}
 }

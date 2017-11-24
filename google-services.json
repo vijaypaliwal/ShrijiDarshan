@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "381947611538-nv7mr86qr6sjt1vvrn7dshr3rd17evun.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shivamitcs.shriji",
+            "certificate_hash": "e6d54ea1b0d8d08478e6b58015895e8119e7d227"
+          }
+        },
+        {
           "client_id": "381947611538-bcciqi0h8abcu08mip8r9nhq3bi9vpek.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,20 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "381947611538-esjdsj76636e7j5evvuldpm4updg53k2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.shivamitcs.shriji"
+              }
+            },
+            {
+              "client_id": "381947611538-bcciqi0h8abcu08mip8r9nhq3bi9vpek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
