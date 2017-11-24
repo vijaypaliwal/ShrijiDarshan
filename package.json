@@ -1,7 +1,10 @@
 {
-    "name": "shivampn",
-    "version": "1.0.0",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    }
+  "name": "shivampn",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cordova-plugin-firebase": "^0.1.24"
+  }
 }
